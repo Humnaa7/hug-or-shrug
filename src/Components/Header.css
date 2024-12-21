@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1340px;
+    min-height: 170px;
+}
+.headerContainer{
+    height: 91px;
+    width: 1229px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    position: absolute;
+    top: 21px;
+    left: 91px;
+}
+.logo{
+    width: 170px;
+    height: 91px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 15px;
+}
+.menu li{
+    margin: 10px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+}
+.addBtn{
+    margin-left: 391px;
+    margin-right: 30px;
+    background-color: #0E67F5;
+    width: 99px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+
+}

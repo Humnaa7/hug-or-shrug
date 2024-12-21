@@ -1,0 +1,138 @@
+.profileIntro{
+    display: flex;
+    flex-direction: row;
+    width: 339px;
+    height: 100px;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+.profileIntroAbout{
+    display: flex;
+    flex-direction: column;
+}
+.opinionStatement{
+    display: flex;
+    flex-direction: row;
+}
+.DP{
+    width: 100px;
+    height: 100px;
+}
+.profileName{
+    font-weight: 400;
+    font-size: 30px;
+    width: 219px;
+    line-height: 39px; 
+    margin-left: 4%;
+    color: #272727;
+}
+.opinionStatement{
+    width: 105px;
+    height: 30px;
+    margin-left: 3%;
+    margin-top: 3%;
+    gap: 3%;
+}
+.opinionStatement p{
+    font-weight: 600;
+    font-size: 17px;
+    color: #272727;
+}
+.thumbIcon{
+    border: none;
+}
+.pepsiSection{
+    width: 966px;
+    height: 500px;
+    /* background-color: aqua; */
+    margin-left: 8%;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+}
+.pepsiBottleImg{
+    height: 500px;
+    width: 500px;
+}
+.pepsiSectionRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pepsiLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.pepsiOpinion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pepsiOpinion h2{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 39px;
+}
+.pepsiOpinion p{
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    height: 127px;
+    width: 458px;
+    text-align: center;
+    padding: 8%;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 29px;
+    margin-top: 6%;
+}
+.pepsiLinks a{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #184BC8;
+    border: 1px solid #184BC8;
+    border-radius: 10px;
+    padding: 18px 21px;
+}
+.pepsiLinks p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    color: #272727;
+}
+.thumbIconSection{
+    display: flex;
+    flex-direction: row;
+    margin-left: 45%;
+    margin-top: 4%;
+    width: 178px;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2%;
+}
+.thumbIconSection .fa-thumbs-down{
+    margin-left: 7%;
+}
+.thumbIconSection p{
+    font-weight: 300;
+    font-size: 20px;
+    color: #272727;
+}
+.addBtn{
+    background-color: #0E67F5;
+    width: 99px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.blueBtn{
+    margin-left: 45%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}

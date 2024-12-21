@@ -1,0 +1,520 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.usersHeading{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  border: 10px dotted #F5F9FF;
+  padding: 25px 95px;
+  border-radius: 20px;
+  width: 280px;
+  height: 90px;
+  margin: 4% auto;
+}  
+.usersBackgroundRectangle{
+  width: 1340px;
+  height: 721px;
+}
+.usersSection{
+  position: relative;
+  z-index: 1;
+}
+.vectors{
+  position: absolute;
+  z-index: 2;
+}
+.vector-1{
+  top: 240px;
+  left: 851px;
+}
+.vector-2{
+  bottom: 87px;
+  left: 665px;
+}
+.vector-3{
+  bottom: 146px;
+  right: 144px;
+}
+.vector-4{
+  top: 241px;
+  right: 351px;
+}
+.vector-5{
+  top: 261px;
+  left: 41px;
+  transform: rotate(95deg);
+}
+.vector-6{
+  top: 283px;
+  left: 460px;
+  transform: rotate(67deg);
+}
+.vector-7{
+  top: 201px;
+  right: 47px;
+  transform: rotate(81deg);
+}
+.vector-8{
+  top: 348px;
+  left: 403px;
+}
+.vector-9{
+  bottom: 221px;
+  right: 203px;
+}
+.vector-10{
+  top: 512px;
+  right: 554px;
+}
+.vector-11{
+  top: 201px;
+  left: 481px;
+}
+.vector-12{
+  bottom: 74px;
+  left: 62px;
+}
+.vector-13{
+  bottom: 293px;
+  left: 254px;
+}
+.vector-14{
+  bottom: 169px;
+  left: 80px;
+}
+.users{
+  position: absolute;
+  z-index: 2;
+}
+.user-1{
+  top: 250px;
+  left: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.user-2{
+  top: 250px;
+  left: 623px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.user-3{
+  top: 251px;
+  left: 1023px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.user-4{
+  top: 468px;
+  left: 371px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.user-5{
+  top: 469px;
+  right: 376px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.userPic{
+  width: 80px;
+  height: 80px;
+}
+.nickPic{
+  border: 1px solid white;
+  border-radius: 56px;
+}
+.userName{
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 25px;
+}
+.userTeaser{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  margin-top: 3%;
+}
+.userThumbIcon{
+  transform: scaleX(-1);
+} 
+.userPara{
+  margin-right: 10px;
+}
+.opinionsSectionRectangle{
+  width: 1150px;
+  height: 1686px;
+  border: 10px solid #F5F9FF;
+  border-radius: 100px;
+  margin: 5% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.thumbsSection{
+  width: 430px;
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+}
+.blueCircleEllipse{
+  width: 140px;
+  height: 140px;
+  position: relative;
+  top: -23px;
+  left: 10px;
+}
+.redCircleEllipse{
+  width: 140px;
+  height: 140px;
+  position: relative;
+  top: -23px;
+  left: -69px;
+}
+.blueOpinionsThumb{
+  position: relative;
+  top: -149px;
+  left: 46px;
+}
+.blueOpinionsP{
+  position: relative;
+  top: -161px;
+  left: 48px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 45px;
+}
+.redOpinionsThumb{
+  position: relative;
+  top: -146px;
+  left: -31px;
+}
+.redOpinionsP{
+  position: relative;
+  top: -160px;
+  left: -23px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 45px;
+}
+.mainSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.opinionGroupOne{
+  width: 996px;
+  height: 81px;
+}
+.opinionGroupTwo{
+  width: 996px;
+  height: 81px;
+  margin-top: 6%;
+}
+.opinionGroupThree{
+  width: 996px;
+  height: 81px;
+  margin-top: 6%;
+}
+.opinionGroupFour{
+  width: 996px;
+  height: 81px;
+  margin-top: 6%;
+}
+.opinionGroupFive{
+  width: 996px;
+  height: 81px;
+  margin-top: 6%;
+}
+.opinionGroupSix{
+  width: 996px;
+  height: 81px;
+  margin-top: 6%;
+}
+.general-category-margin{
+  margin-left: 17%;
+}
+.opinionGroupSeven{
+  width: 996px;
+  height: 81px;
+  margin-top: 6%;
+}
+.opinionGroupEight{
+  width: 996px;
+  height: 81px;
+  margin-top: 6%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 10px 20px;
+
+  position: relative;
+}
+.general{
+  border-color: #FF2E2E;
+}
+.lifestyle{
+  border-color: #FF2E2E;
+}
+.experiences{
+  border-color: #0E67F5;
+}
+.category {
+  position: absolute;
+  top: -38px;
+  left: 21px;
+  font-weight: 50;
+  font-size: 19px;
+  line-height: 22px;
+  padding: 12px 33px;
+  border-radius: 10px;
+  color: white;
+  width: 138px;
+  height: 47px;
+}
+.general-category {
+  background-color: #FFA500; 
+}
+.lifestyle-category{
+  background-color: #609DFF;
+  width: 219px;
+}
+.experiences-category{
+  background-color: #FF7DF2;
+  width: 160px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 15px;
+  padding: 10px 0;
+}
+.icon {
+  width: 49px;
+  height: 49px;
+  /* border: 2px solid currentColor; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3%;
+}
+.thumbPadding{
+  padding: 21%;
+  transform: scaleX(-1);
+}
+.blueThumbPadding{
+  padding: 21%;
+}
+.text {
+  flex-grow: 1;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #272727;
+  margin-left: 2%;
+}
+.userImg{
+  width: 46px;
+  height: 46px;
+  margin-right: 1%;
+}
+.user {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 22px;
+  color: #272727;
+  margin-right: 13%;
+}
+.more-btn {
+  width: 84px;
+  height: 38px;
+  border: 1px solid;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+  background: white;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin-right: 5%;
+}
+.red-btn {
+  border-color: #FF2E2E;
+  color: #FF2E2E;
+}
+.blue-btn{
+  border-color: #0E67F5;
+  color: #0E67F5;
+}
+.black-btn{
+  margin-top: 4%;
+}
+/* Genre Section */
+.genreSection{
+  width: 1340px;
+  height: 465px;
+  background-color: #F5F9FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.genreLineOne{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: auto;
+}
+.genreLineTwo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 5% auto;
+}
+.genreLineThree{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 5%;
+  margin-left: -23%;
+}
+.general-genre{
+  width: 200px;
+  height: 75px;
+  border: none;
+  border-radius: 20px;
+  padding: 20px 49px;
+  background-color: #848484;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+  margin-left: 2%;
+}
+.brands-genre{
+  width: 200px;
+  height: 75px;
+  border: none;
+  border-radius: 20px;
+  padding: 19px 55px;
+  background-color: #FFA500;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.experiences-genre{
+  width: 255px;
+  height: 75px;
+  border: none;
+  border-radius: 20px;
+  padding: 19px 55px;
+  background-color: #FF7DF2;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.people-genre{
+  width: 199px;
+  height: 75px;
+  border: none;
+  border-radius: 20px;
+  padding: 19px 55px;
+  background-color: #906CF4;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.things-genre{
+  width: 199px;
+  height: 75px;
+  border: none;
+  border-radius: 20px;
+  padding: 19px 55px;
+  background-color: #A9EAEA;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.places-genre{
+  width: 199px;
+  height: 75px;
+  border: none;
+  border-radius: 20px;
+  padding: 19px 55px;
+  background-color: #FF6969;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.foodAndDrink-genre{
+  width: 322px;
+  height: 75px;
+  border: none;
+  border-radius: 20px;
+  padding: 19px 55px;
+  background-color: #93FF8A;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.entertainment-genre{
+  width: 470px;
+  height: 75px;
+  border: none;
+  border-radius: 20px;
+  padding: 19px 55px;
+  background-color: #C100C5;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.lifestyle-genre{
+  width: 377px;
+  height: 75px;
+  border: none;
+  border-radius: 20px;
+  padding: 19px 55px;
+  background-color: #609DFF;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+}

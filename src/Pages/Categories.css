@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.categoriesSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.categoriesThumb{
+    width: 951px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.categoriesBlueEllipse{
+    width: 86px;
+    height: 86px;
+    position: relative;
+    top: 11px;
+    left: 10px;
+}
+.categoriesRedEllipse{
+    width: 86px;
+    height: 86px;
+    position: relative;
+    top: 11px;
+    left: 10px;
+}
+.categoriesBlueOpinionsThumb{
+    width: 36px;
+    height: 36px;
+    position: relative;
+  top: -22px;
+  left: -50px;
+}
+.categoriesRedOpinionsThumb{
+    width: 36px;
+    height: 36px;
+    position: relative;
+  top: -22px;
+  left: -50px;
+}
+.categoriesBlueOpinionsP{
+    position: relative;
+  top: -30px;
+  left: 36px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+}
+.categoriesRedOpinionsP{
+    position: relative;
+  top: -30px;
+  left: 43px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+}
+.categoriesP{
+    width: 280px;
+    height: 90px;
+    padding: 14px 55px;
+    border: 10px solid #F5F9FF;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #272727;
+}
+.categoriesGenre{
+    width: 1340px;
+  height: 465px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.genreLine{
+    width: 1340px;
+    height: 2px;
+    border: 1px solid #F5F9FF;
+    margin-top: 2%;
+}

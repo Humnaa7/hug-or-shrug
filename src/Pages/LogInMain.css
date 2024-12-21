@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.rectangle{
+    width: 1340px;
+    height: 780px;
+    position: absolute; 
+    z-index: 1;
+    border-radius: 0px;
+}
+.polygon{
+    position: relative;
+    top: 8%;
+    left: 208px; 
+    z-index: 1;
+}
+.shapeDefiner{
+    background-color: white;
+    border: 2px solid black;
+}
+.elementsParent{
+    position: relative;
+}
+.elements{
+    position: absolute;
+    z-index: 2;
+}
+.topLayerElements{
+    position: absolute;
+    z-index: 10;
+}
+.child-1{
+    left: 0.1px;
+    top: 60px;
+}
+.child-2{
+    left: 361px;
+    top: 367px;
+}
+.child-3{
+    left: 469px;
+    top: 0px;
+}
+.child-4{
+    left: 601px;
+    top: 488px;
+}
+.child-5{
+    left: 834px;
+    top: 110px;
+}
+.child-6{
+    left: 1191px;
+    top: 276px;
+}
+.img-1{
+    top: 62px;
+    left: 187px;
+}
+.img-2{
+    top: 438px;
+    left: 619px;
+}
+.img-3{
+    top: 103px;
+    left: -26px;
+}
+.img-4{
+    top: 27px;
+    right: 83px;
+}
+.img-5{
+    top: 239px;
+    left: 457px;
+    width: 440px;
+    height: 81px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.img-5::placeholder{
+    color: #FFFFFF;
+    padding: 8%;
+}
+.img-6{
+    top: 260px;
+    right: 486px;
+}
