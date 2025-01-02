@@ -14,6 +14,7 @@ function Header(){
 return(
     
 <div className="container">
+    <div></div>
     <div className="headerContainer">
     <img className="logo" src={logo}
      alt="Logo" 
